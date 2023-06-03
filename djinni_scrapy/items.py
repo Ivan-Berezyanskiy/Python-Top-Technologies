@@ -13,4 +13,3 @@ class DjinniScrapyItem(scrapy.Item):
     views = scrapy.Field()
     applications = scrapy.Field()
     experience = scrapy.Field()
-

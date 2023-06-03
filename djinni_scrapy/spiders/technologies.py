@@ -45,7 +45,9 @@ class TechnologiesSpider(scrapy.Spider):
             experience = int(experience)
 
         if salary:
-            min_salary, max_salary = map(int, salary.replace("$", "").split("-"))
+            min_salary, max_salary = map(
+                int, salary.replace("$", "").split("-")
+            )
         else:
             min_salary = None
             max_salary = None
