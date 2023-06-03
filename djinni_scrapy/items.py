@@ -7,6 +7,10 @@ import scrapy
 
 
 class DjinniScrapyItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    tags = scrapy.Field()
+    min_salary = scrapy.Field()
+    max_salary = scrapy.Field()
+    views = scrapy.Field()
+    applications = scrapy.Field()
+    experience = scrapy.Field()
+
