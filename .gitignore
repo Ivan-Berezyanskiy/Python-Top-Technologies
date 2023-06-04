@@ -5,6 +5,7 @@
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
 technologies.csv
+data/*-year.png
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
